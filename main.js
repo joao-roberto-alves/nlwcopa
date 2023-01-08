@@ -25,15 +25,18 @@ document.querySelector("#cards").innerHTML =
     
         
       createCard('24/11', 'quinta', 
-        createGame('brazil','16:00', 'serbia') )
+        createGame('brazil','16:00', 'serbia') + createGame('portugal','16:00', 'uruguai') + createGame('portugal','16:00', 'uruguai') )
         +
 
 
        createCard('28/11', 'segunda', 
-        createGame('suice','13:00', 'brazil') + createGame('portugal','16:00', 'uruguai') )  
+        createGame('suice','13:00', 'brazil') + createGame('portugal','16:00', 'uruguai') + createGame('portugal','16:00', 'uruguai') )  
         +
 
         createCard('02/12', 'sexta',
-        createGame('brazil','16:00', 'cameron'))       
+        createGame('brazil','16:00', 'cameron') + createGame('portugal','16:00', 'uruguai') + createGame('portugal','16:00', 'uruguai')) +
+        createCard('28/11', 'segunda', 
+        createGame('suice','13:00', 'brazil') + createGame('arg','16:00', 'uruguai') + createGame('portugal','18:00', 'france') )  
       
+
 
